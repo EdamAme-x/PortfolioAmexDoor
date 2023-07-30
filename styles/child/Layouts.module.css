@@ -1,0 +1,62 @@
+.SideBar {
+  width: 30vw;
+  height: 100vh;
+  backdrop-filter: brightness(1.5);
+  box-shadow: 0 2px 1px 0 rgb(256, 256, 256);
+  position: relative;
+  z-index: 1999;
+}
+
+.Header {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header h1 {
+  font-size: 1.5rem;
+  display: none;
+}
+
+.Icon {
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+
+@font-face {
+  font-family: "RocknRoll One";
+  src: url("/RocknRollOne-Regular.ttf");
+}
+
+.Icon > h2 {
+  margin: 2px 0 0 7px;
+  font-size: 1.2rem;
+  font-family: "RocknRoll One";
+}
+
+.Pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pages > div {
+    margin: 7.5px;
+    display: flex;
+}
+
+.Pages > div > img {
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+    margin: 5px 0 0 7.5px;
+}
+
+.Pages > div > p {
+    font-size: 1.3rem;
+    font-family: "RocknRoll One";
+    font-weight: lighter;
+    margin: 7.5px;
+}
